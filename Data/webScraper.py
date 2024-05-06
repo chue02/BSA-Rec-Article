@@ -7,7 +7,7 @@ import pandas as pd
 # it uses JavaScript to limit how much of a page a bot can access.
 
 years = [18, 19, 20, 21, 22, 23]
-data_scraped = '/receiving_advanced.htm' # Change this to whatever url you want scraped, e.g. '/receiving_advanced.htm'
+data_scraped = '/passing.htm' # Change this to whatever url you want scraped, e.g. '/receiving_advanced.htm'
                                          # You MUST include / before the url name
 
 for year in years:
@@ -15,8 +15,8 @@ for year in years:
     df = pd.read_html(url)[0] # For advanced passing, in the function you must use
     # header = [1], otherwise the header row will be info about the stats and not the actual stats. 
     # Also, if you want to use a different table, change the index after the function from [0] to [1], [2], etc.
+
+    # TODO: Sanatize inputs by removing "*" and other symbols in names
     print(df.head())
 
-    df.to_csv("advRec" + str(year) + ".csv")
-
-print(df.head())
+    df.to_csv("pass" + str(year) + ".csv")
