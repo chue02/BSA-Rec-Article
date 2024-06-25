@@ -9,9 +9,9 @@ SELECT r."Tm",
        r."Player",  -- Additional columns you want to retrieve
        r."Age",
        r."Pos",
-	   r."Tgt",
-	   r."Yds",
-	   r."TD",
-	   r."Ctch%"
+	r."Tgt",
+	r."Yds",
+	r."TD",
+	r."Ctch%"
 FROM rec.rec18 r
 JOIN max_rec_cte m ON r."Tm" = m."Tm" AND r."Rec" = m."Leader";
