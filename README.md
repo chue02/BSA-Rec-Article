@@ -1,6 +1,4 @@
-# BSA-Rec-Article
-
-# How Much Do Top Receivers Contribute to QB’s Stats?
+# How Much Do Top Receivers Contribute to Their QB’s Stats?
 
 This project analyzes the numbers from the top QBs in the NFL in relation to the stats with their top receiving target by isolating the QB's numbers from the numbers from their top receiving target.
 
