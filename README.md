@@ -6,6 +6,12 @@ For instance, during the 2023 season was Dak Prescott a legitimate Second-team A
 
 The results from this project helps answers the questions such as the ones in the example above.
 
+# Repo Explanation
+
+The `regressions.ipynb` was my attempt of making an MLM to make predictions of quarterback stats, although I abandoned that task quickly. The `visuals.ipynb` file is where I wrote code to generate the graphs via Jupyter-Notebook. The `HTML` files display the code and graphics without you needing to open the `IPYNB` files. `recProject.md` is where I wrote the report, which was rendered via `PanDoc` as the `PDF` file in the repo. 
+
+The `Data` folder contains all the stats I used in the project. All stats were acquired from [Pro Football Reference.](https://www.pro-football-reference.com/) The `Images` folder contains the graphs and visuals my code generated. The visuals are all saved as `PNG` files.
+
 # Potential Improvements
 - Compare the QB's top target in each position group (i.e. WR, TE, RB) rather than just the top target per team. This helps us see if a QB is a product of a *system* of weapons rather than one weapon (e.g. is Purdy a product of having *multiple* elite weapons?)
 - Take previous seasons' data to create an MLM to see what a quarterback's passer rating should be after discounting stats from top receivers. For instance, if a quarterback should have an expected passer rating of *90* even after you subtract the passing stats gained from his top target's stats, yet his actual passer rating is *85* after the adjustment, what does that indicate about the quarterback? Does this mean his efficiency relies significantly on the prowess of his top target?
