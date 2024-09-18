@@ -1,4 +1,4 @@
-# How Much Do Top Receivers Contribute to Their QB’s Stats?
+# [How Much Do Top Receivers Contribute to Their QB’s Stats?](https://www.bruinsportsanalytics.com/post/how-top-receivers-contribute-qb-stats)
 
 This project analyzes the numbers from the top QBs in the NFL in relation to the stats with their top receiving target by isolating the QB's numbers from the numbers from their top receiving target.
 
